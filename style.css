@@ -1,0 +1,136 @@
+/* Estilo básico para todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,136,1) 35%, rgba(22,139,163,1) 100%);;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,136,1) 35%, rgba(22,139,163,1) 100%);
+    color: #fff;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+section{
+    margin: 10px;
+}
+
+
+p {
+    text-indent: 50px;
+}
+
+.margem{
+    margin: 0% 30%;
+}
+
+/* Estilos para alguma classes que usei na minha pagina */
+.logoText{
+
+    display: grid;
+    
+    place-items: center;
+    
+    }
+
+.fotoLeft{
+    margin-bottom: 20px;
+    margin-right: 30px;
+    border-radius: 50px;
+    width: 250px;
+    float: left;
+
+}
+.fotoInicio{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 400px;
+    float: right;
+
+}
+
+.foto{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 250px;
+    float: right;
+
+}
+
+.icon{
+    width: 25px;
+    margin: 5px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto; /* Centraliza o formulário */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.contact-form label {
+    margin-top: 10px;
+   
+
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #0a0920;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
